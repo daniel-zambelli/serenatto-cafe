@@ -17,9 +17,15 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Barlow:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./estilos.css" />
   </head>
   <body>
+    <!-- HEADER -->
+
     <header>
       <!-- NAVBAR OFFCANVAS -->
 
@@ -100,6 +106,103 @@
         </div>
       </nav>
     </header>
+
+    <!-- MAIN -->
+
+    <main>
+      <!-- BANNER 1 - BOAS VINDAS -->
+
+      <section
+        class="banners banner-1 d-flex flex-column justify-content-center"
+      >
+        <div class="banner-titulo bg-body-secondary text-center py-5">
+          <h2 class="fw-bold">Sua pausa para desfrutar a vida.</h2>
+          <p>
+            Boas-vindas ao Café & Bistrô Serenatto! Um ambiente aconchegante e
+            acolhedor para apreciar um bom café.
+          </p>
+        </div>
+      </section>
+
+      <!-- SECTION - NOSSOS SERVIÇOS - CARDS -->
+      <section class="py-5">
+        <h2 class="text-center m-0 pb-2 fw-bold">Nossos serviços</h2>
+        <div
+          class="container d-flex flex-column flex-xl-row justify-content-around align-items-center flex-wrap"
+        >
+          <!-- CARD 1 - CAFÉ & BISTRÔ -->
+
+          <div class="card m-4" style="width: 20rem">
+            <img src="./assets/cafe-card.png" alt="Foto do balcão do café" />
+            <div class="card-body">
+              <h5 class="card-title py-2 fw-bold">Café & Bistrô</h5>
+              <p class="card-text">
+                Nosso bistrô oferece uma ampla variedade de cafés, smoothies,
+                deliciosos salgados e sobremesas. Uma excelente opção para quem
+                busca um lugar tranquilo e aconchegante.
+              </p>
+              <a href="#" class="btn botao-padrao w-100 fw-bold mt-3"
+                >Quero detalhes</a
+              >
+            </div>
+          </div>
+
+          <!-- CARD 2 - BUFFET-->
+
+          <div class="card m-4" style="width: 20rem">
+            <img src="./assets/buffet-card.png" alt="Foto do buffet do café" />
+            <div class="card-body">
+              <h5 class="card-title py-2 fw-bold">Buffet</h5>
+              <p class="card-text">
+                Buffet e catering personalizado para eventos, produções e
+                celebrações. Com um menu variado e adaptável às preferências do
+                cliente, atendimento atencioso e profissional.
+              </p>
+              <a href="#" class="btn botao-padrao w-100 fw-bold mt-3"
+                >Quero detalhes</a
+              >
+            </div>
+          </div>
+
+          <!-- CARD 3 - DELIVERY -->
+
+          <div class="card m-4" style="width: 20rem">
+            <img
+              src="./assets/delivery-card.png"
+              alt="Foto de uma caixa de pães"
+            />
+            <div class="card-body">
+              <h5 class="card-title py-2 fw-bold">Delivery</h5>
+              <p class="card-text">
+                Para quem deseja desfrutar no conforto de casa, oferecemos
+                delivery dos produtos. Com o mesmo cardápio variado de sempre,
+                sem perder nosso sabor e padrão de qualidade.
+              </p>
+              <a href="#" class="btn botao-padrao w-100 fw-bold mt-3"
+                >Quero detalhes</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- BANNER 2 - PORTAS ABERTAS PARA TODOS OS PUBLICOS -->
+      <section
+        class="banners banner-2 d-flex flex-column justify-content-center"
+      >
+        <div class="banner-titulo bg-body-secondary text-center py-5">
+          <h2 class="fw-bold">Portas abertas para todos os públicos.</h2>
+          <p>
+            Nosso espaço é aconchegante, pet friendly, preparado para receber
+            crianças e pessoas com deficiência. Também oferecemos ambiente de
+            coworking!
+          </p>
+        </div>
+      </section>
+
+      <!-- BANNER 3 - GRÃOS DE CAFÉ -->
+      <section class="banners banner-3"></section>
+    </main>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
