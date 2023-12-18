@@ -80,7 +80,7 @@
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contato</a>
+                  <a class="nav-link" href="#contato">Contato</a>
                 </li>
 
                 <li class="nav-item">
@@ -352,6 +352,81 @@
 
       <!-- BANNER 3 - GRÃOS DE CAFÉ -->
       <section class="banners banner-3"></section>
+
+      <!-- FORMULARIO -->
+
+      <section class="py-5 container">
+        <div class="row">
+          <div class="col-10 col-xl-8 mx-auto">
+            <div class="border border-2 rounded p-3">
+              <h3 class="fw-bold p-3">Entre em contato!</h3>
+              <form id="contato">
+                <div class="form-floating mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="floatingNome"
+                    placeholder="Nome"
+                  />
+                  <label for="floatingNome">Nome</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="floatingEmail"
+                    placeholder="nome@exemplo.com"
+                  />
+                  <label for="floatingEmail">Email</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="floatingTelefone"
+                    placeholder="Telefone"
+                  />
+                  <label for="floatingTelefone">Telefone</label>
+                </div>
+                <select
+                  class="form-select mb-3"
+                  aria-label="Default select example"
+                >
+                  <option selected>Preferência de contato</option>
+                  <option value="1">Email</option>
+                  <option value="2">Whatapp</option>
+                  <option value="3">Ligação</option>
+                </select>
+                <label for="nivel-satisfacao" class="form-label"
+                  >Nível da satisfação:</label
+                >
+                <input
+                  type="range"
+                  class="form-range input-range"
+                  id="nivel-satisfacao"
+                />
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckDefault"
+                  />
+                  <label class="form-check-label mb-2" for="flexCheckDefault">
+                    Deseja receber novidades e promoções por email?
+                  </label>
+                </div>
+                <button
+                  type="button"
+                  class="btn botao-padrao w-100 py-3 fw-bold"
+                >
+                  Enviar
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!-- CORPO DO SITE -->
     </main>
@@ -631,7 +706,7 @@
 
     <!-- MODAL 1 - CAFÉS TRADICIONAIS -->
 
-    <div
+    <article
       class="modal fade"
       id="modal-1"
       tabindex="-1"
@@ -640,9 +715,9 @@
     >
       <div class="modal-dialog">
         <div class="modal-content">
-          <div class="modal-header">
+          <header class="modal-header">
             <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">
-              Cafés Tradicionais
+              Cafés Tradicionarticle
             </h2>
             <button
               type="button"
@@ -650,8 +725,8 @@
               data-bs-dismiss="modal"
               aria-label="Close"
             ></button>
-          </div>
-          <div class="modal-body">
+          </header>
+          <section class="modal-body">
             <img
               class="w-100"
               src="assets/produtos-cafe-tradicional.png"
@@ -670,8 +745,8 @@
               <strong> Café Italiano </strong>, um café expresso encorpado e
               intenso.
             </p>
-          </div>
-          <div class="modal-footer border-0 justify-content-center">
+          </section>
+          <footer class="modal-footer border-0 justify-content-center">
             <button
               type="button"
               class="btn botao-padrao fw-bold"
@@ -679,14 +754,14 @@
             >
               Fechar janela
             </button>
-          </div>
+          </footer>
         </div>
       </div>
-    </div>
+    </article>
 
     <!-- MODAL 2 - CAFÉS ESPECIAIS -->
 
-    <div
+    <article
       class="modal fade"
       id="modal-2"
       tabindex="-1"
@@ -695,7 +770,7 @@
     >
       <div class="modal-dialog">
         <div class="modal-content">
-          <div class="modal-header">
+          <header class="modal-header">
             <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">
               Cafés Especiais
             </h2>
@@ -705,8 +780,8 @@
               data-bs-dismiss="modal"
               aria-label="Close"
             ></button>
-          </div>
-          <div class="modal-body">
+          </header>
+          <section class="modal-body">
             <img
               class="w-100"
               src="assets/produtos-cafe-especial.png"
@@ -724,8 +799,8 @@
               é preparado com uma técnica de imersão e pressão, resultando em
               uma bebida de sabor intenso e aroma acentuado.
             </p>
-          </div>
-          <div class="modal-footer border-0 justify-content-center">
+          </section>
+          <footer class="modal-footer border-0 justify-content-center">
             <button
               type="button"
               class="btn botao-padrao fw-bold"
@@ -733,14 +808,14 @@
             >
               Fechar janela
             </button>
-          </div>
+          </footer>
         </div>
       </div>
-    </div>
+    </article>
 
     <!-- MODAL 3 - SMOOTHIES E VITAMINAS -->
 
-    <div
+    <article
       class="modal fade"
       id="modal-3"
       tabindex="-1"
@@ -749,7 +824,7 @@
     >
       <div class="modal-dialog">
         <div class="modal-content">
-          <div class="modal-header">
+          <header class="modal-header">
             <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">
               Smoothies e Vitaminas
             </h2>
@@ -759,8 +834,8 @@
               data-bs-dismiss="modal"
               aria-label="Close"
             ></button>
-          </div>
-          <div class="modal-body">
+          </header>
+          <section class="modal-body">
             <img
               class="w-100"
               src="assets/produtos-vitaminas.png"
@@ -775,8 +850,8 @@
               E então, escolha é sua: quer sua vitamina com
               <strong>leite</strong> ou <strong>água</strong>?
             </p>
-          </div>
-          <div class="modal-footer border-0 justify-content-center">
+          </section>
+          <footer class="modal-footer border-0 justify-content-center">
             <button
               type="button"
               class="btn botao-padrao fw-bold"
@@ -784,14 +859,14 @@
             >
               Fechar janela
             </button>
-          </div>
+          </footer>
         </div>
       </div>
-    </div>
+    </article>
 
     <!-- MODAL 4 - PÃES E FOCACCIAS -->
 
-    <div
+    <article
       class="modal fade"
       id="modal-4"
       tabindex="-1"
@@ -800,7 +875,7 @@
     >
       <div class="modal-dialog">
         <div class="modal-content">
-          <div class="modal-header">
+          <header class="modal-header">
             <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">
               Pães e Focaccias
             </h2>
@@ -810,8 +885,8 @@
               data-bs-dismiss="modal"
               aria-label="Close"
             ></button>
-          </div>
-          <div class="modal-body">
+          </header>
+          <section class="modal-body">
             <img
               class="w-100"
               src="assets/produtos-paes.png"
@@ -825,8 +900,8 @@
               Dentre todas as nossas opções, destacamos o
               <strong>Pão Integral com Aveia e Centeio</strong>
             </p>
-          </div>
-          <div class="modal-footer border-0 justify-content-center">
+          </section>
+          <footer class="modal-footer border-0 justify-content-center">
             <button
               type="button"
               class="btn botao-padrao fw-bold"
@@ -834,14 +909,14 @@
             >
               Fechar janela
             </button>
-          </div>
+          </footer>
         </div>
       </div>
-    </div>
+    </article>
 
     <!-- MODAL 5 - DOCES -->
 
-    <div
+    <article
       class="modal fade"
       id="modal-5"
       tabindex="-1"
@@ -850,7 +925,7 @@
     >
       <div class="modal-dialog">
         <div class="modal-content">
-          <div class="modal-header">
+          <header class="modal-header">
             <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">
               Doces
             </h2>
@@ -860,8 +935,8 @@
               data-bs-dismiss="modal"
               aria-label="Close"
             ></button>
-          </div>
-          <div class="modal-body">
+          </header>
+          <section class="modal-body">
             <img
               class="w-100"
               src="assets/produtos-doces.png"
@@ -872,8 +947,8 @@
               os mais incríveis bolos de chocolate, de frutas de época e o
               <strong>tradicional Naked Cake de frutas vermelhas!</strong>
             </p>
-          </div>
-          <div class="modal-footer border-0 justify-content-center">
+          </section>
+          <footer class="modal-footer border-0 justify-content-center">
             <button
               type="button"
               class="btn botao-padrao fw-bold"
@@ -881,14 +956,14 @@
             >
               Fechar janela
             </button>
-          </div>
+          </footer>
         </div>
       </div>
-    </div>
+    </article>
 
     <!-- MODAL 6 - SALGADOS -->
 
-    <div
+    <article
       class="modal fade"
       id="modal-6"
       tabindex="-1"
@@ -897,7 +972,7 @@
     >
       <div class="modal-dialog">
         <div class="modal-content">
-          <div class="modal-header">
+          <header class="modal-header">
             <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">
               Salgados
             </h2>
@@ -907,8 +982,8 @@
               data-bs-dismiss="modal"
               aria-label="Close"
             ></button>
-          </div>
-          <div class="modal-body">
+          </header>
+          <section class="modal-body">
             <img
               class="w-100"
               src="assets/produtos-salgados.png"
@@ -923,8 +998,8 @@
               Não deixe de experimentar nossa clássica
               <strong>Torta de Alho Poró a quatro queijos!</strong>
             </p>
-          </div>
-          <div class="modal-footer border-0 justify-content-center">
+          </section>
+          <footer class="modal-footer border-0 justify-content-center">
             <button
               type="button"
               class="btn botao-padrao fw-bold"
@@ -932,10 +1007,10 @@
             >
               Fechar janela
             </button>
-          </div>
+          </footer>
         </div>
       </div>
-    </div>
+    </article>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
