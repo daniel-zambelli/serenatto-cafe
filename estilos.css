@@ -70,6 +70,6 @@ input[type="checkbox"]:focus {
     --bs-nav-link-color: white;
     --bs-card-color: white;
     --bs-offcanvas-color: white;
-    --bs-accordion-color: white;
+    --bs-body-color: white;
   }
 }
